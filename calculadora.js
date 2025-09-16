@@ -14,7 +14,7 @@ function division (numero1, numero2){
     return numero1 / numero2;
    }
 
-   function porcentage (porcentaje, numero){
+   function porcentaje (porcentaje, numero){
     return (porcentaje * numero) / 100;
    }
 
@@ -22,12 +22,12 @@ function division (numero1, numero2){
    const restaResultado = resta(10,15);
    const multiplicacionResultado = multiplicacion(7,8);
    const divisionResultado = division(20,4);
-   const porcentageResultado = porcentage(50,100);
+   const porcentajeResultado = porcentaje(50,100);
 
    console.log(sumaResultado);
    console.log(restaResultado);
    console.log(multiplicacionResultado);
    console.log(divisionResultado);
-   console.log(porcentageResultado);
+   console.log(porcentajeResultado);
 
    
